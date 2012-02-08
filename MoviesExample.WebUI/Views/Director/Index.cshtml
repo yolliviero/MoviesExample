@@ -1,0 +1,30 @@
+@model IEnumerable<MoviesExample.Core.Model.Director>
+
+<div data-role="page" id="DirectorIndex">
+    <div data-role="header" data-position="fixed">               
+        <h1>Director Index</h1>
+        <a href="/Director/Create" class="ui-btn-right">Create</a>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true" data-filter="true">
+            @foreach (var item in Model)
+            {                    
+                <li>
+                    <a href="/Director/Details/@item.Id">
+						<h3>@item.Name</h3>
+                        <p>[<b>Created:</b> @item.Created <b>Updated:</b> @item.Updated]</p>
+					</a>
+                </li>																											                                                 
+            }
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+               <li><a href="/Home" data-icon="home" data-iconpos="top">Home</a></li>
+            </ul>
+        </div>
+        <h4>&copy codeplanner 2012</h4>
+    </div>
+</div>
+

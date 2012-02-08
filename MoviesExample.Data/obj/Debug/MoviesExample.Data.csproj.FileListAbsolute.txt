@@ -1,0 +1,9 @@
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\bin\Debug\MoviesExample.Data.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\bin\Debug\MoviesExample.Data.pdb
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\bin\Debug\EntityFramework.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\bin\Debug\MoviesExample.Core.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\bin\Debug\MoviesExample.Core.pdb
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\bin\Debug\EntityFramework.xml
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\obj\Debug\MoviesExample.Data.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Data\obj\Debug\MoviesExample.Data.pdb

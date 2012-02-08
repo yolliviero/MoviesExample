@@ -1,0 +1,42 @@
+﻿<#@ Template Language="C#" HostSpecific="True" Inherits="DynamicTransform" #>
+<#@ Output Extension="cshtml" #>
+<#@ assembly name="System.ComponentModel.DataAnnotations" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Data.Entity" #>
+<#@ assembly name="System.Data.Linq" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.ComponentModel.DataAnnotations" #>
+<#@ import namespace="System.Data.Linq.Mapping" #>
+<#@ import namespace="System.Data.Objects.DataClasses" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Reflection" #>
+<div data-role="page" id="HomePage">
+    <div data-role="header" data-position="fixed">        
+        <h1>CodePlanner - Home</h1>        
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">            
+            <#
+			foreach(string entity in Model.Entities.Split(','))
+			{
+			#>
+			<li>
+                <a href="/<#= entity #>"><#= entity #></a>
+            </li>
+			<#
+			}
+			#>
+			
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+               <li><a href="/Home" data-icon="home" data-iconpos="top">Home</a></li>
+            </ul>
+        </div>
+        <h4>&copy codeplanner 2012</h4>
+    </div>
+</div>

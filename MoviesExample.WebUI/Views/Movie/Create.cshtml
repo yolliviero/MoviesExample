@@ -1,0 +1,27 @@
+@model MoviesExample.Core.Model.Movie
+
+<div data-role="page" id="MovieCreate" data-add-back-btn="true">
+    <div data-role="header" data-position="fixed">
+        <a data-direction="reverse" href="/Movie/Index">Back</a>        
+        <h1>
+            Movie Create</h1>      
+        <a href="#" data-role="button" data-icon="check" class="ui-btn-right formsubmit">Create</a>  
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)                
+                @Html.Partial("_CreateOrEdit", Model)                               
+            }
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="/Home" data-icon="home" data-iconpos="top">Home</a></li>
+            </ul>
+        </div>
+        <h4>&copy codeplanner 2012</h4>
+    </div>
+</div>

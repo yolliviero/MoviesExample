@@ -1,0 +1,24 @@
+@model MoviesExample.Core.Model.Movie
+
+<div data-role="page" id="MovieDelete">
+    <div data-role="header">
+        <h1>
+            Movie Delete</h1>
+        <a href="#"  data-icon="delete" class="ui-btn-right formsubmit">Delete</a>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <h3>
+                Are you sure you want to delete this?</h3>
+            @using (Html.BeginForm())
+            {
+                @Html.Partial("_Display", Model)			                                            
+            }
+        </div>
+    </div>
+    <div data-role="footer">
+        <h4>
+            &copy codeplanner 2012</h4>
+    </div>
+</div>
+

@@ -1,0 +1,30 @@
+﻿<#@ Template Language="C#" HostSpecific="True" Inherits="DynamicTransform" #>
+<#@ Output Extension="cshtml" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="EnvDTE" #>
+<# var DataType = (CodeType)Model.DataType; #>
+@model <#= DataType.FullName #>
+
+<div data-role="page" id="<#= DataType.Name #>Edit">
+    <div data-role="header">            
+        <h1>
+           <#= DataType.Name #> Edit</h1>
+        <a href="#"  data-icon="check" class="ui-btn-right formsubmit">Save</a>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            @using (Html.BeginForm())
+            {
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.Created)
+            @Html.HiddenFor(model => model.Updated)
+            @Html.Partial("_CreateOrEdit", Model)
+            }
+        </div>
+    </div>
+    <div data-role="footer">            
+        <h4>
+            &copy codeplanner 2012</h4>            
+    </div>
+</div>

@@ -1,0 +1,3 @@
+@model MoviesExample.Core.Model.Director
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name, new { disabled = "disabled", @readonly = "readonly" })    

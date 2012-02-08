@@ -1,0 +1,30 @@
+@model MoviesExample.Core.Model.Director
+
+<div data-role="page" id="DirectorDetails">
+    <div data-role="header" data-position="fixed"> 
+        <a data-direction="reverse" href="/Director/Index">Back</a>        
+        <h1>
+            Details</h1>        
+        <a href="/Director/Edit/@Model.Id" data-role="button"  data-icon="gear" data-rel="dialog" data-transition="pop" class="ui-btn-right">Edit</a>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">       
+			@Html.Partial("_Display", Model)	            
+        </div>
+        <a href="/Director/Delete/@Model.Id" data-rel="dialog" data-role="button" data-transition="pop" data-icon="delete">Delete</a>
+		
+					<ul data-role="listview" data-inset="true">
+												<li data-role="list-divider">Children</li>
+				                <li><a href="/Movie/MovieToDirector/@Model.Id">Movies<span class="ui-li-count">@Model.Movies.Count</span></a></li>
+        			
+							</ul>
+		    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="/Home" data-icon="home" data-iconpos="top">Home</a></li>
+            </ul>
+        </div>
+        <h4>&copy codeplanner 2012</h4>        
+    </div>
+</div>

@@ -1,0 +1,11 @@
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\MoviesExample.Service.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\MoviesExample.Service.pdb
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\MoviesExample.Core.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\MoviesExample.Data.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\EntityFramework.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\MoviesExample.Core.pdb
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\MoviesExample.Data.pdb
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\bin\Debug\EntityFramework.xml
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\obj\Debug\MoviesExample.Service.dll
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.Service\obj\Debug\MoviesExample.Service.pdb

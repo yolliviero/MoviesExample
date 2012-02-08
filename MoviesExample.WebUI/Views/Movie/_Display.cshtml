@@ -1,0 +1,9 @@
+@model MoviesExample.Core.Model.Movie
+    @Html.LabelFor(model => model.Title)
+    @Html.TextBoxFor(model => model.Title, new { disabled = "disabled", @readonly = "readonly" })    
+	@Html.LabelFor(model => model.DirectorId,"Director")    
+    @Html.DropDownListFor(model => model.DirectorId, ((IEnumerable<MoviesExample.Core.Model.Director>)ViewBag.PossibleDirector).Select(option => new SelectListItem {
+        Text = (option == null ? "None" : option.Name), 
+        Value = option.Id.ToString(),
+        Selected = (Model != null) && (option.Id == Model.DirectorId)
+    }), "Choose...", new { disabled = "disabled" })    
