@@ -10,8 +10,8 @@ namespace MoviesExample.WebUI.App_Start
     {
         public static void Start()
         {
-            Database.DefaultConnectionFactory = new SqlCeConnectionFactory("System.Data.SqlServerCe.4.0");
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DataContext>());
+            //Database.DefaultConnectionFactory = new SqlCeConnectionFactory("System.Data.SqlServerCe.4.0");
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DataContext>());
         }
     }
 }

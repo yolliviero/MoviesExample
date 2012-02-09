@@ -21,3 +21,4 @@ C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.WebUI\bin\Ninje
 C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.WebUI\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.WebUI\obj\Debug\MoviesExample.WebUI.dll
 C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.WebUI\obj\Debug\MoviesExample.WebUI.pdb
+C:\Users\Yanis\Workspace\MS Projects\MoviesExample\MoviesExample.WebUI\bin\Devtalk.EF.CodeFirst.dll
