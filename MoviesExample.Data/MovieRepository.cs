@@ -30,7 +30,8 @@ namespace MoviesExample.Data
 	//modifications in this file may be overwritten.
 	public partial class MovieRepository : BaseRepository<Movie>, IMovieRepository
     {
-		public MovieRepository(IDatabaseFactory databaseFactory):base(databaseFactory){}
+		public MovieRepository(IDatabaseFactory databaseFactory)
+            :base(databaseFactory){}
 		//Implement custom code in a partial class
 	}
 }

@@ -33,7 +33,8 @@ namespace MoviesExample.Service
     {
 		protected new IMovieRepository Repository;				
 		
-		public MovieService(IUnitOfWork unitOfWork, IMovieRepository movieRepository):base(unitOfWork)
+		public MovieService(IUnitOfWork unitOfWork, IMovieRepository movieRepository)
+            :base(unitOfWork)
 		{
 		    base.Repository = movieRepository;
 		}
